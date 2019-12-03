@@ -22,8 +22,8 @@ int main() {
 			sum += module;
 			module = module/3-2;
 		}
+		free(line);
 	}
-	free(line);
 	printf("The total fuel required for all modules is: %d\n",simpleSum);
-	printf("Calculted fuel required for the fuel is: %d\n",sum);
+	printf("Calculated fuel required for the fuel is: %d\n",sum);
 }
